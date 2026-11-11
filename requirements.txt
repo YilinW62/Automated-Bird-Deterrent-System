@@ -1,0 +1,5 @@
+# Raspberry Pi OS: sudo apt install python3-opencv python3-numpy python3-gpiozero python3-lgpio curl
+# Laptop / venv (vision-only):
+opencv-python>=4.5
+numpy>=1.21
+# GPIO Zero is installed from Raspberry Pi OS packages for real GPIO control.
