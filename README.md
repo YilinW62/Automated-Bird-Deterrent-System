@@ -45,7 +45,7 @@ Requires a Raspberry Pi 5, working USB camera and suitable independently verifie
 ```bash
 sudo apt update
 sudo apt install -y python3-opencv python3-numpy python3-gpiozero python3-lgpio curl
-bashdownload_model.sh
+bash download_model.sh
 python3 Bird_Deterrent.py --dry-run
 ```
 
@@ -63,7 +63,7 @@ Use `python3 Bird_Deterrent.py --help` to inspect all available options. The pro
 
 ```text
 Bird_Deterrent.py        Camera detection, GPIO scanning and alarm state logic
- download_model.sh       Model download utility
+download_model.sh        Model download utility
  hardware/               Photos and CAD renders (pending image upload)
  docs/hardware.md        Wiring and power safety notes
  docs/testing.md         Suggested reproducible experiments
@@ -84,9 +84,9 @@ The nominal 7.2V VEX pack must **never** be connected directly to Raspberry Pi G
 - Test and report real precision, recall, false positives, trigger latency, angular accuracy, and power stability (see [test plan](docs/testing.md)).
 - Add integration tests, a reproducible headless service, and validated battery power before outdoor deployment.
 
-## Team and attribution
+## Project background
 
-EG-UY 1004 SLDP Team 100 — Jose Delgado, Jiawei Lin, Nicole Polyan, and Yilin Wang. Hardware/CAD photographs and course materials were developed in the team project. Individual contributions should be attributed accurately when presenting the work in a personal portfolio.
+This repository documents my participation in a team engineering design project for **EG-UY 1004 (SLDP)** at NYU Tandon. It serves as a record of our prototype, implementation, design process, and lessons learned. The prototype and enclosure designs were produced collaboratively as course work; this repository does not imply that I completed every component individually.
 
 **External references:** [Hobby Project bird photography tutorial](https://hobby-project.com/arduino-raspberry-pi/automatic-bird-photography-with-open-cv-object-recognition/), [pretrained MobileNet SSD source](https://github.com/djmv/MobilNet_SSD_opencv), [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/).
 
