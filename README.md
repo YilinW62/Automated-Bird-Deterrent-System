@@ -4,7 +4,7 @@
 
 **Personal technical portfolio | NYU project**
 
-I worked on a camera-based bird deterrent prototype that combines real-time object detection with servo scanning and an electronically controlled buzzer. This repository is my technical record of the system: its implementation, architecture, experiments, and engineering challenges. The original prototype was developed collaboratively as a team project at New York University.
+This NYU course project combines real-time computer vision, Raspberry Pi GPIO control, servo-based scanning, and automated buzzer activation. The repository showcases the Python implementation, embedded-system architecture, prototype integration, and technical problem-solving involved in building the system.
 
 ## Technical highlights
 
