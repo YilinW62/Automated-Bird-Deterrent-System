@@ -113,12 +113,8 @@ results/                Generated logs and snapshots are gitignored
 
 **Power and wiring:** Raspberry Pi 5 uses 3.3V GPIO logic. External loads must not be powered directly through GPIO. The 7.2V VEX battery cannot be connected directly to Raspberry Pi power rails; the available LM2596 HW-411 regulator was not verified as an adequate Pi 5 supply. See [hardware notes](docs/hardware.md).
 
-## Context and references
+## References
 
-This is a **personal technical record of an NYU team course project**. The original hardware prototype and enclosure work were collaborative; this repository documents the system and the technical skills demonstrated by the implementation, without claiming sole authorship of the team build.
-
-- [Reference bird-photography tutorial](https://hobby-project.com/arduino-raspberry-pi/automatic-bird-photography-with-open-cv-object-recognition/)
-- [MobileNet SSD pretrained model source](https://github.com/djmv/MobilNet_SSD_opencv)
+- [Bird-photography reference tutorial](https://hobby-project.com/arduino-raspberry-pi/automatic-bird-photography-with-open-cv-object-recognition/)
+- [MobileNet SSD pretrained model](https://github.com/djmv/MobilNet_SSD_opencv)
 - [GPIO Zero documentation](https://gpiozero.readthedocs.io/en/stable/)
-
-License has not been assigned; any public reuse licensing of collaborative project materials should be agreed with the team.
