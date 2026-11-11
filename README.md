@@ -111,7 +111,7 @@ results/                Generated logs and snapshots are gitignored
 - Calibrate servo motion and add integration tests for repeated detection and shutdown behavior.
 - Validate safe, sufficiently rated power delivery before testing untethered outdoor operation.
 
-**Power and wiring:** Raspberry Pi 5 uses 3.3V GPIO logic. External loads must not be powered directly through GPIO. The 7.2V VEX battery cannot be connected directly to Raspberry Pi power rails; the available LM2596 HW-411 regulator was not verified as an adequate Pi 5 supply. See [hardware notes](docs/hardware.md).
+**Power and wiring:** Raspberry Pi 5 uses 3.3V GPIO logic. Power supplies for the Pi and external actuators must meet their respective voltage and current requirements. See [hardware notes](docs/hardware.md).
 
 ## References
 
