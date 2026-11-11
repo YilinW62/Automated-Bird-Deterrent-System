@@ -2,7 +2,7 @@
 
 **Raspberry Pi 5 · Python · OpenCV DNN · MobileNet SSD · GPIO Zero · Embedded Systems**
 
-A camera-based prototype that detects birds and triggers a timed acoustic deterrent while scanning the environment with a servo motor. Developed as an **EG-UY 1004 engineering design team project**.
+A camera-based prototype that detects birds and triggers a timed acoustic deterrent while scanning the environment with a servo motor. Developed as a **team-based course project at New York University (NYU)**.
 
 ## What it does
 
@@ -86,7 +86,7 @@ The nominal 7.2V VEX pack must **never** be connected directly to Raspberry Pi G
 
 ## Project background
 
-This repository documents my participation in a team engineering design project for **EG-UY 1004 (SLDP)** at NYU Tandon. It serves as a record of our prototype, implementation, design process, and lessons learned. The prototype and enclosure designs were produced collaboratively as course work; this repository does not imply that I completed every component individually.
+This repository documents a **team-based course project at New York University (NYU)**, including the working prototype, computer vision implementation, hardware integration, and enclosure design. It is maintained as a technical project record and portfolio showcase.
 
 **External references:** [Hobby Project bird photography tutorial](https://hobby-project.com/arduino-raspberry-pi/automatic-bird-photography-with-open-cv-object-recognition/), [pretrained MobileNet SSD source](https://github.com/djmv/MobilNet_SSD_opencv), [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/).
 
