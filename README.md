@@ -4,8 +4,6 @@
 
 A camera-based prototype that detects birds and triggers a timed acoustic deterrent while scanning the environment with a servo motor. Developed as an **EG-UY 1004 engineering design team project**.
 
-![Bench prototype](hardware/prototype-bench.jpg)
-
 ## What it does
 
 - Captures live video from a USB camera attached to a Raspberry Pi 5.
@@ -17,13 +15,11 @@ A camera-based prototype that detects birds and triggers a timed acoustic deterr
 
 > **Prototype status:** The team reported successful bird-detection and component-integration tests. No independently verified precision/recall, timing distributions, 360° coverage, outdoor durability, or battery runtime metrics are claimed. The VEX-battery-powered Raspberry Pi setup was not validated; use a correctly rated Raspberry Pi power supply.
 
-## Gallery
+## Prototype visuals
 
-| Hardware demonstration | Enclosure prototype |
-| --- | --- |
-| ![Bench testing](hardware/prototype-bench.jpg) | ![Acrylic enclosure](hardware/acrylic-enclosure.png) |
+The project includes a working bench prototype, Fusion CAD enclosure views, and an acrylic enclosure photograph. Photos and CAD renders are available in the accompanying project package and will be added to the repository's `hardware/` directory after binary upload.
 
-See [`hardware/`](hardware/) for additional CAD screenshots and [`docs/hardware.md`](docs/hardware.md) for hardware notes.
+See [hardware documentation](docs/hardware.md) for hardware notes.
 
 ## System flow
 
@@ -49,7 +45,7 @@ Requires a Raspberry Pi 5, working USB camera and suitable independently verifie
 ```bash
 sudo apt update
 sudo apt install -y python3-opencv python3-numpy python3-gpiozero python3-lgpio curl
-bash download_model.sh
+bashdownload_model.sh
 python3 Bird_Deterrent.py --dry-run
 ```
 
@@ -68,7 +64,7 @@ Use `python3 Bird_Deterrent.py --help` to inspect all available options. The pro
 ```text
 Bird_Deterrent.py        Camera detection, GPIO scanning and alarm state logic
  download_model.sh       Model download utility
- hardware/               Photos and design screenshots
+ hardware/               Photos and CAD renders (pending image upload)
  docs/hardware.md        Wiring and power safety notes
  docs/testing.md         Suggested reproducible experiments
  results/.gitkeep        Empty directory placeholder (generated logs excluded)
